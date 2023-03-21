@@ -8,7 +8,7 @@ pub struct FortePaymentsRequest {
     card: ForteCard
 }
 
-#[derive(Default, Debug, Serialize, Eq, PartialEq)]
+#[derive(Default, Debug, Serialize, Eq, PartialEq)]   
 pub struct ForteCard {
     card_type: Option<api_models::enums::CardNetwork>,
     name_on_card: Secret<String>,
