@@ -20,7 +20,7 @@ pool_size = 5
 connection_timeout = 10
 
 [replica_database]
-username = "replica_user"
+username = "replica_user"  
 password = "replica_pass"
 host = "localhost"
 port = 5432

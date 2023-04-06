@@ -20,7 +20,7 @@ pub enum AttemptStatus {
     AuthenticationFailed,
     RouterDeclined,
     AuthenticationPending,
-    AuthenticationSuccessful,
+    AuthenticationSuccessful,  
     Authorized,
     AuthorizationFailed,
     Charged,
