@@ -26,7 +26,7 @@ impl TryFrom<&types::PaymentsAuthorizeRouterData> for FortePaymentsRequest  {
                 let card = ForteCard {
                     card_type: new_card.card_network,
                     name_on_card: new_card.card_holder_name,
-                    account_number: new_card.card_number,
+                    account_number: new_card.card_number,  
                     expire_month: new_card.card_exp_month,
                     expire_year: new_card.card_exp_year,
                     card_verification_value: new_card.card_cvc,
